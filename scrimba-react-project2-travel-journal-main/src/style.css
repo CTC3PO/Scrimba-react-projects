@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    width: 550px;
+}
+
+.gray {
+    color: #918E9B;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.nav-bar {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F55A5A;
+    color: white;
+    
+}
+
+.nav-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.nav-text {
+    font-size: 14px;
+}
+
+.cards-list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+}
+
+.card {
+    margin-bottom: 20px;
+    display: flex;
+    width: 471px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: left;
+    justify-content: space-around;
+    color: gray;
+    font-size: 12px;
+}
+
+.card-image {
+    width: 126px;
+    height: 168px;
+    border-radius: 6px;
+    margin-right: 15px;  
+    margin-top: 10px;  
+    margin-bottom: 15px;
+}
+
+.card-info-heading {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.google-link {
+    color: gray;
+    font-size: 10px;  
+    margin-left: 10px;  
+}
+
+.card-location-icon{
+    height: 15px;
+}
+
+.card-title {
+    overflow:hidden;
+    text-overflow: ellipsis;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #2B283A;
+}
+
+.card-date {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.card-description {
+    margin-top: 10px;    
+    max-width: 320px;
+}
